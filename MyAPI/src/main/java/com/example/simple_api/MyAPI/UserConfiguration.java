@@ -9,6 +9,7 @@ import java.util.List;
 @RestController
 public class UserConfiguration {
 
+    //sample pull request
     private List<User> users = new ArrayList<>();
     //get all user
     @GetMapping("/api/users/")
